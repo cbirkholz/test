@@ -86,8 +86,8 @@ button {
   display: inline-block;
   padding: .5em 3em;
   margin: .15em 0em;
-  font-size: 2em;
-  line-height: 2.25em;
+  font-size: 1.25em;
+  line-height: 1.5em;
   letter-spacing: .1em;
   cursor: pointer;
   text-align: center;
@@ -136,4 +136,8 @@ table, tr, td {
 @media only screen and (min-width: 768px) {
 body {
   padding-left: 20em;
+} 
+button { 
+  font-size: 2em;
+  line-height: 2.25em;
 } }
