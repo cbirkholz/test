@@ -21,7 +21,6 @@ body {
   font-weight: normal;
   font-size: 1.25em;
   line-height: 1.5em;
-  padding-left: 20em;
   max-width: 1500px;
 }
 
@@ -131,4 +130,8 @@ textarea:focus {
 table, tr, td {
   line-height: 1.5em;
   padding: 5px 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  padding-left: 20em;
 }
