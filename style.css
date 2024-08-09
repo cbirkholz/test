@@ -87,6 +87,7 @@ button {
   padding: .5em 3em;
   margin: .15em 0em;
   font-size: 2em;
+  line-height: 2.25em;
   letter-spacing: .1em;
   cursor: pointer;
   text-align: center;
