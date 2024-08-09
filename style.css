@@ -24,16 +24,10 @@ body {
 
 container {
   text-align: center;
-}
-
-section {
-  display: block;
-  margin-block-start: 0.67em;  
+  margin: 150px auto 250px 300px;
 }
 
 .body {
-  display: block;
-  margin-block-start: 0.67em;
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
@@ -43,8 +37,6 @@ section {
 }
 
 .instructions {
-  display: block;
-  margin-block-start: 0.67em;
   color: #fff;
   background-color: #c67f08;
   font-family: arial, sans-serif;
@@ -55,8 +47,6 @@ section {
 }
 
 .links {
-  display: block;
-  margin-block-start: 0.67em;
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
