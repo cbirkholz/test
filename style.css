@@ -21,7 +21,7 @@ img {
 /*fonts*/
 @font-face {
   font-family: 'header';
-  src: url('https://fonts.adobe.com/fonts/reflex-pro-variable');
+  src: url('https://fonts.adobe.com/fonts/reflex-pro-variable?vf-instance=Expanded+Italic&vf-font-size=100&vf-font=ReflexProVariable-Condensed');
   font-variation-settings: 'wdth' 150, 'wght' 400, 'ital' 9;
 
 }
