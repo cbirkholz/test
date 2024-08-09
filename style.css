@@ -26,6 +26,14 @@ body {
   line-height: 1.1em;
 }
 
+.body {
+  background-color: #c67f08;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.1em;
+}
+
 container {
   text-align: center;
   margin: 50px, auto, 100px, auto;
