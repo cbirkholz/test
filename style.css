@@ -15,25 +15,32 @@ img {
 }
 
 body {
+  color: #fff;
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
   font-size: 1.25em;
-  line-height: 1.25em;
+  line-height: 1.5em;
+  padding-left: 20em;
+  max-width: 1500px;
 }
 
 container {
+  color: #fff;
   text-align: center;
-  margin: 150px auto 250px 300px;
+}
+
+small {
+  color: #fff;
+  margin: 
 }
 
 .body {
+  color: #fff;
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  font-size: 1.25em;
-  line-height: 1.25em;
-  padding: 100px auto 250px 300px;
+  margin: 150px auto 250px 300px;
 }
 
 .instructions {
@@ -41,18 +48,12 @@ container {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  font-size: 1.25em;
-  line-height: 1.25em;
-  padding: 100px auto 250px 300px;
 }
 
 .links {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  font-size: 1.25em;
-  line-height: 1.25em;
-  padding: 100px auto 250px 300px;
 }
 
 p {
@@ -64,8 +65,8 @@ h3 {
   color: #ede832;
   font-family: "reflex-pro-variable", sans-serif;  
   font-variation-settings: 'wdth' 150, 'wght' 400, 'ital' 9;
-  font-size: 2em;
-  letter-spacing: .25em;
+  font-size: 1.5em;
+  letter-spacing: .1em;
   text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
   margin: 25px auto 25px auto;
 }
@@ -84,8 +85,10 @@ button {
   font-family: "reflex-pro-variable", sans-serif;
   font-variation-settings: "ital" 9, "wght" 400, "wdth" 150;
   display: inline-block;
-  padding: .5em .75em;
+  padding: .5em 3em;
+  margin: .15em 0em;
   font-size: 2em;
+  letter-spacing: .1em;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -97,16 +100,30 @@ button {
   box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-button:hover {
-  background-color: #d7a014
-}
-
 button:active {
   background-color: #d7a014;
   box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
   transform: translateY(4px);
 }
 
-td {
-  border-bottom:  0px;
-  }
+input[type=text], textarea {
+    background-color: #b17107;
+    color: #fff;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    padding: .1em;
+    margin: .2em;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+    border: 1px solid #fff;
+    border-radius: 6px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+input:focus {  
+    outline-color: #ede832 !important;
+}
+
+textarea:focus {  
+    outline-color: #ede832 !important;
+}
