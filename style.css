@@ -22,8 +22,8 @@ body {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  font-size: 1em;
-  line-height: 1.1em;
+  font-size: 1 em;
+  line-height: 1.1 em;
 }
 
 .body {
@@ -32,18 +32,19 @@ body {
   font-weight: normal;
   font-size: 1em;
   line-height: 1.1em;
+  text-align: center;
 }
 
 container {
   text-align: center;
-  margin: 50px, auto, 100px, auto;
+  margin: 50 px, auto, 100 px, auto;
 }
 
 
 h3 {
   color: #ede832;
   font-family: "reflex-pro-variable", sans-serif;
-  font-size: 1.25em;
+  font-size: 1.25 em;
   text-align: center;
   text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
 }
