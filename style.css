@@ -101,6 +101,7 @@ button:active {
   transform: translateY(4px);
 }
 
-td {
-    border-bottom:  0px;
+table, tr, td {
+  border:  0px;
+  text-align: center;
   }
