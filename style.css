@@ -41,6 +41,15 @@ body {
   text-align: center;
 }
 
+.links {
+  background-color: #c67f08;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.1em;
+  text-align: center;
+}
+
 container {
   text-align: center;
   margin: 50px auto 100px auto;
@@ -101,7 +110,6 @@ button:active {
   transform: translateY(4px);
 }
 
-table, tr, td {
-  border:  0px;
-  text-align: center;
+td {
+  border-bottom:  0px;
   }
