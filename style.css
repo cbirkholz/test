@@ -146,3 +146,15 @@ button {
   font-size: 2em;
   line-height: 2.25em;
 } }
+
+@media only screen and (min-width: 601px) {
+body {
+  padding-top: 1.5em;
+  padding-bottom: 2.5em;
+  padding-left: 1.25em;
+} 
+button { 
+  font-size: 1.5em;
+  line-height: 1.75em;
+} }
+
