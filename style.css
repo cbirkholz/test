@@ -1,0 +1,86 @@
+/*reset*/
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*fonts*/
+@font-face {
+  font-family: 'header';
+  src: url('https://fonts.adobe.com/fonts/reflex-pro-variable');
+  font-variation-settings: 'wdth' 150, 'wght' 400, 'ital' 9;
+
+}
+
+
+body {
+  background-color: #c67f08;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.1em;
+}
+
+container {
+  text-align: center;
+  margin: 50px, auto, 100px, auto;
+}
+
+
+h3 {
+  color: #ede832;
+  font-family: 'accent', serif;
+  font-size: 1.25em;
+  text-align: center;
+  text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+a, a:visited {
+  color: #ede832;
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  color: #ede832;
+  text-decoration: none;
+}
+
+.button {
+  font-family: 'accent', serif;
+  display: inline-block;
+  padding: .5em .75em;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #d7a014;
+  border: none;
+  border-radius: 5px;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+  background-color: #d7a014
+}
+
+.button:active {
+  background-color: #d7a014;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+  transform: translateY(4px);
+}
