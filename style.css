@@ -18,7 +18,7 @@ body {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  font-size: 1.25emem;
+  font-size: 1.25em;
   line-height: 1.25em;
 }
 
@@ -26,7 +26,7 @@ body {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  font-size: 1.25emem;
+  font-size: 1.25em;
   line-height: 1.25emem;
 }
 
@@ -43,13 +43,13 @@ body {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  font-size: 1.25emem;
+  font-size: 1.25em;
   line-height: 1.25em;
 }
 
 container {
   text-align: center;
-  margin: 100px auto 250px auto;
+  margin: 100px auto 250px 300px;
 }
 
 p {
