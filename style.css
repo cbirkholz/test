@@ -127,3 +127,8 @@ input:focus {
 textarea:focus {  
     outline-color: #ede832 !important;
 }
+
+table, tr, td {
+  line-height: 1.5em;
+  padding: 5px 15px;
+}
