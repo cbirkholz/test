@@ -27,6 +27,8 @@ container {
 }
 
 .body {
+  display: block;
+  margin-block-start: 0.67em;
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
@@ -36,6 +38,8 @@ container {
 }
 
 .instructions {
+  display: block;
+  margin-block-start: 0.67em;
   color: #fff;
   background-color: #c67f08;
   font-family: arial, sans-serif;
@@ -46,6 +50,8 @@ container {
 }
 
 .links {
+  display: block;
+  margin-block-start: 0.67em;
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
