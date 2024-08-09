@@ -22,12 +22,17 @@ body {
   line-height: 1.25em;
 }
 
+container {
+  text-align: center;
+}
+
 .body {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
   font-size: 1.25em;
   line-height: 1.25em;
+  padding: 100px auto 250px 300px;
 }
 
 .instructions {
@@ -37,6 +42,7 @@ body {
   font-weight: normal;
   font-size: 1.25em;
   line-height: 1.25em;
+  padding: 100px auto 250px 300px;
 }
 
 .links {
@@ -45,10 +51,6 @@ body {
   font-weight: normal;
   font-size: 1.25em;
   line-height: 1.25em;
-}
-
-container {
-  text-align: center;
   padding: 100px auto 250px 300px;
 }
 
