@@ -39,7 +39,6 @@ small {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  margin: 150px auto 250px 300px;
 }
 
 .instructions {
@@ -133,5 +132,6 @@ table, tr, td {
 }
 
 @media only screen and (min-width: 768px) {
+body {
   padding-left: 20em;
-}
+} }
