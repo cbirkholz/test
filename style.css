@@ -18,16 +18,16 @@ body {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  font-size: 1em;
-  line-height: 1.1em;
+  font-size: 1.25emem;
+  line-height: 1.25em;
 }
 
 .body {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  font-size: 1em;
-  line-height: 1.1em;
+  font-size: 1.25emem;
+  line-height: 1.25emem;
 }
 
 .instructions {
@@ -35,21 +35,21 @@ body {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  font-size: 1em;
-  line-height: 1.1em;
+  font-size: 1.25em;
+  line-height: 1.25em;
 }
 
 .links {
   background-color: #c67f08;
   font-family: arial, sans-serif;
   font-weight: normal;
-  font-size: 1em;
-  line-height: 1.1em;
+  font-size: 1.25emem;
+  line-height: 1.25em;
 }
 
 container {
   text-align: center;
-  margin: 50px auto 100px auto;
+  margin: 100px auto 250px auto;
 }
 
 p {
@@ -62,7 +62,7 @@ h3 {
   font-family: "reflex-pro-variable", sans-serif;  
   font-variation-settings: 'wdth' 150, 'wght' 400, 'ital' 9;
   font-size: 2em;
-  letter-spacing: 3px;
+  letter-spacing: .5em;
   text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
   margin: 25px auto 25px auto;
 }
