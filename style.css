@@ -40,6 +40,10 @@ container {
   margin: 50 px, auto, 100 px, auto;
 }
 
+p {
+  color: #fff;
+  text-align: center;
+}
 
 h3 {
   color: #ede832;
